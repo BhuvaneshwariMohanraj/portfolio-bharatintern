@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color:beige;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 1cm;
+    color: #888;
+    cursor: default;
+}
+.logo span{
+    color: #b14ecd;
+}
+
+.navigation a{
+    color: #888;
+    text-decoration: none;
+    margin-right: 40px;
+    transition: .3s;
+    font-weight: 500;
+}
+.navigation a:hover{
+    color:#b14ecd ;
+}
+.btn{
+    color:cornsilk;
+    text-decoration: none;
+    padding: 8px 35px;
+    background:#b14ecd;
+    border-radius: 10px;
+    border: 2px solid #b14ecd;
+    font-weight: 500;
+}
+
+.btn:hover{
+    color: #502b70;
+    background: transparent;
+}
+
+.home{
+
+    position: relative;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    padding: 30px 100px;
+    
+}
+
+.content h2{
+    font-size: 1cm;
+}
+.content h2 span{
+    color: #b14ecd;
+}
+.btn-group a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #b14ecd;
+    border: 2px solid #b14ecd;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .3s;
+}
+.content p{
+    padding: 10px 0 40px 0;
+}
+.btn-group a:nth-child(1){
+    color: #b14ecd;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(1){
+    color:#fff;
+    background: #b14ecd;
+    
+}
+.images{
+    width:20%;
+    height: 40%;
+    position: absolute;
+    bottom: 0%;
+    right: 60px;
+
+}
+.images img{
+    height: 90%;
+    position:absolute;
+    left: 40px;
+    bottom: 0;
+    
+}
+.lang{
+    position:absolute;
+    bottom:90px;
+    display: inline-flexbox;
+    width:2cm;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    padding: 10px 0 40px 0;
+
+}
+.social-icons{
+    position: absolute;
+    bottom:10px;
+    display:inline-block;
+    width: 35px;
+    height:35px;
+    background:#b14ecd;
+    border-radius: 50%;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid beige;
+    outline: 2px solid #b14ecd;
+
+}
+
+.social-icons i{
+    color: #fff;
+}
+.social-icons:hover{
+    transform: translateY(-8px)
+}
